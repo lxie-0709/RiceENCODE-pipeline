@@ -22,7 +22,7 @@ do
 ###### Mapped the reads to other RNA and get the unmapped reads
 bowtie $index -q -a -v 0 --al ${i%%.*} --un ${i%%.*}_un ./$i -S ${i%%.*}.sam
 ###### Mapped unmapped reads to Rice genome and filter 21nt 24nt siRNA
-bowtie $genomeindex -q -a -v 0 --al ${i%%_*}_map --un ${i%%_*}_nomap ./$i -S ${i%%_*}.rice.sam
+bowtie $genomeindex -q -a -v 0 --al ${i%%_*}_map --un ${i%%_*}_nomap ./${i%%.*}_un -S ${i%%_*}.rice.sam
 python 21_24_filter.py $i ${i%%.*}_24.sam ${i%%.*}_21.sam
 samtools view -bS ${i%%.*}_24.sam -O ${i%%.*}_24.bam
 samtools view -bS ${i%%.*}_21.sam -O ${i%%.*}_21.bam
