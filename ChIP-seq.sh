@@ -25,6 +25,6 @@ bamCoverage -b ${sample%%_*}.unique.bam -o $sample.bw
 #broad peak for ChIP-seq
 macs2 callpeak -t ${sample%%_*}.unique.bam -c $input -f BAM -n ${sample%%_*} -B --broad -g genomesize --outdir ./${sample%%_*}_broad &
 #narrow peak for ChIP-seq
-macs2 callpeak -t ${sample%%_*}.unique.bam -c $input -f BAM -n ${sample%%_*} -B -g 3.6e+8 --outdir ./${sample%%_*}
+macs2 callpeak -t ${sample%%_*}.unique.bam -c $input -f BAM -n ${sample%%_*} -B -g genomesize --outdir ./${sample%%_*}
 done
 
