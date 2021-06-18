@@ -16,4 +16,5 @@
 * HiC-Pro(2.11.4)
 * BatMeth2(2.01)
 <br></br>
-[RiceENCODE](http://glab.hzau.edu.cn/RiceENCODE/ "http://glab.hzau.edu.cn/RiceENCODE/")
+<br>RiceENCODE website:</br>
+[RiceENCODE http://glab.hzau.edu.cn/RiceENCODE/](http://glab.hzau.edu.cn/RiceENCODE/)
