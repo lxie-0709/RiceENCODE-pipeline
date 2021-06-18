@@ -1,6 +1,6 @@
 # RiceENCODE-pipeline
 The RiceENCODE pipeline test in following dependencies :
-Python (2.7) 
+Python (2.7)
 samtools (>1.9)
 ChIA-PET tools (v3.0)
 BWA(0.7.17)
