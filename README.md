@@ -15,3 +15,4 @@
 * Cufflinks(2.2.1)
 * HiC-Pro(2.11.4)
 * BatMeth2(2.01)
+[RiceENCODE](http://glab.hzau.edu.cn/RiceENCODE/)
